@@ -1,26 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin Recipes</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>Recipes</h1>
+    <header id="Navbar">
+        <ul>
+            <div class="Home">
+                <li>
+                    <a href="#"><h1>Recipes</h1></a>
+                </li>
+            </div>
 
-    <p>Here you will find the recipes to all those dishes you have been craving for right in one place!</p>
+            <div class="right">
+                    <a href="#para"><li>About</li></a>
+                    <li>Contact</li>
+                    <li><button type="button">Login</button></li>
+                    <li><button type="button">Get Started</button></li>
+            </div>
 
-    <ul>
-        <h2>List</h2>
+        </ul>
+    </header>
 
-        <li><a href="recipes/lasagna.html">Lasagna</a></li><br>
-        <img src="https://www.allrecipes.com/thmb/lJKo8R_F8xfqyf_r5pWRMrHCu94=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/23600-worlds-best-lasagna-DDMFS-4x3-1196-24c5401652934ffb96d3d94bc9fbe2d7.jpg" alt="img" width="500"><br>
+    <div class = "About">
+            <img src="about.png " alt="Italian Trulli">
+    </div>
+    <div id="para" >
+        <img src="chef-cooking.gif" alt="cute_cooking_gif">
+    </div>
+    <div class="content">
 
-        <br><li><a href="recipes/cream_of_broccolli.html">Cream of broccolli soup</a></li><br>
-        <img src="https://www.allrecipes.com/thmb/IEGqf_qHRUICpFJkgFsiat9oSZ4=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/13313-best-cream-of-broccoli-soup-AllrecipesMagazine-4x3-495e6329745545a28c2a9b4e6ee3fab6.jpg" alt="img" width="500"><br>
+        <div class="para" style="border-bottom: 3px solid black;">
+            <h3>About</h3>
 
-        <br><li><a href="recipes/banana_pudding.html">Banana Pudding</a></li><br>
-        <img src="https://www.allrecipes.com/thmb/4LgY4GnmUWjKm3Q3DebQtszRe4k=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/22749-the-best-banana-pudding-mfs-365-4x3-c932d443ac8243009231dbe6eea8be95.jpg" alt="img" width="500"><br>
-    </ul>
+            <p style="font-size: 1.05rem;">Welcome to <span style="font-weight: bold">Recipes</span>, your culinary compass to a world of delicious flavors and culinary adventures. We're here to inspire, guide, and simplify your cooking journey, whether you're a seasoned chef or a kitchen novice.</p><br>
+
+            <p>
+                <span style="text-decoration: underline;">Recipes</span> is your one-stop destination for all things food and cooking. Our mission is to bring joy to your kitchen by offering a vast collection of mouthwatering recipes, cooking tips, and food-related insights. Whether you're looking for quick weeknight meals, gourmet delights, or dietary-specific recipes, we've got you covered. Our website is a celebration of food in all its forms, from classic comfort dishes to innovative and exotic creations.
+            </p>
+        </div>
+
+        <div class="recipe_area">
+            <h3>Discover Our Recipe Library</h3><br>
+
+            <div class="recipes_list">
+                <ul>
+                    <li><a href="recipes/lasagna.html"><h4>Lasagna</h4>
+                            <img src="https://www.allrecipes.com/thmb/lJKo8R_F8xfqyf_r5pWRMrHCu94=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/23600-worlds-best-lasagna-DDMFS-4x3-1196-24c5401652934ffb96d3d94bc9fbe2d7.jpg"
+                                alt="img" width="500">
+                        </a></li>
+
+                    <li><a href="recipes/cream_of_broccolli.html"><h4>Cream of broccolli soup</h4>
+                            <img src="https://www.allrecipes.com/thmb/IEGqf_qHRUICpFJkgFsiat9oSZ4=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/13313-best-cream-of-broccoli-soup-AllrecipesMagazine-4x3-495e6329745545a28c2a9b4e6ee3fab6.jpg"
+                                alt="img" width="500">
+                        </a></li>
+
+                    <li><a href="recipes/banana_pudding.html"><h4>Banana Pudding</h4>
+                            <img src="https://www.allrecipes.com/thmb/4LgY4GnmUWjKm3Q3DebQtszRe4k=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/22749-the-best-banana-pudding-mfs-365-4x3-c932d443ac8243009231dbe6eea8be95.jpg"
+                                alt="img" width="500">
+                        </a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="joke">
+        <h3>Some Of Our Satisfied Users</h3>
+    </div> -->
 </body>
+
 </html>
