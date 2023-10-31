@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script:400');
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    /* background-color:rgb(0, 128, 128); */
+    /* background-color: cadetblue; */
+    /* background-color: rgb(0, 140, 141); */
+
+}
+
+@media screen and (min-width: 50em) {
+    html {
+      font-size: 2vw;
+    }
+}
+
+@media screen and (min-width: 75em) {
+    html {
+      font-size: 1.5em;
+    }
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: #2779a7; */
+    /* background-color: #D7E5CA; */
+    background-color: #ECE3CE;
+}
+
+h1, h2, h3, h4{
+    font-family: 'Dancing Script', cursive;
+    /* color: #142d4c; */
+    /* color: #fffffff0; */
+    color: #3A4D39;
+    line-height: 1.3;
+}
+
+h1 {
+    font-size: 2.452rem;
+    /* color: #3A4D39; */
+}
+  
+h3 {
+    color: #3A4D39;
+    font-size: 2.441rem;
+    text-align: start;
+}
+  
+h3 {font-size: 1.953rem;}
+  
+h4 {font-size: 1.563rem;}
+  
+h5 {font-size: 1.25rem;}
+
+#Navbar{
+    background-color: #4F6F52;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+}
+
+#Navbar h1{
+    color: #ECE3CE;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+
+    justify-content: space-between;
+}
+
+.Home{
+    display: flex;
+    width: 50vw;
+    justify-content: center;
+}
+
+.right{
+    width: 50vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #ECE3CE;
+
+    gap: 0.8vw;
+
+    font-size: 1.05rem;
+}
+
+.right li{color: #ECE3CE;}
+
+.right button{
+    font-size: 0.95rem;
+    padding: 3px;
+    background-color: #ECE3CE;
+    border-radius: 15px;
+}
+
+a{text-decoration: none;}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    gap: 5px;
+    font-size: 0.85rem;
+}
+
+.content p, .content li{ max-width: 75ch;}
+
+.main{
+    max-width: 70%;
+    max-height: 70%;
+    border-radius: 14px;
+
+    margin-bottom: 10px;
+}
+
+.ingredients{
+    margin-top: 5vh;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+
+    display: flex;
+    flex-direction: column;
+}
+
+ol{
+    /* list-style: none; */
+
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+}
+
+ol .step{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vh;
+}
+
+ol img{
+    max-width: 50%;
+    border-radius: 12px;
+}
